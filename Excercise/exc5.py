@@ -25,7 +25,7 @@ Fsl=1
 n = eval(input('Unesi broj članova niza: '))
         
 for i in range(n):
-    print(Fpr, end=' ')
+    print(Fpr, end = ' ')
     f = Fpr + Fsl
     Fpr = Fsl
     Fsl = f
